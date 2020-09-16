@@ -25,8 +25,7 @@ jobs:
   # Rename this job and add more as needed.
   #
   integration-test:
-    machine:
-      image: ubuntu-1604:202007-01
+    executor: orb-tools/ubuntu
     steps:
       - checkout
       - run: sudo apt-get update
