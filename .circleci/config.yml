@@ -4,7 +4,7 @@ version: 2.1
 # release must exist.);
 orbs:
   codecov: codecov/codecov@dev:alpha
-  orb-tools: circleci/orb-tools@9.0
+  orb-tools: circleci/orb-tools@10.0.0
 
 # Pipeline parameters
 parameters:
